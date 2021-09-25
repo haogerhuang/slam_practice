@@ -1,0 +1,3 @@
+/home/pinhao/pinhao/slam_practice/rgbd/CMakeFiles/rebuild_cache.dir
+/home/pinhao/pinhao/slam_practice/rgbd/CMakeFiles/edit_cache.dir
+/home/pinhao/pinhao/slam_practice/rgbd/CMakeFiles/output.dir
