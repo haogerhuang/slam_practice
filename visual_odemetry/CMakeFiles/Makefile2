@@ -44,10 +44,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/pinhao/pinhao/slam_practice/visual_odemetry
+CMAKE_SOURCE_DIR = /home/pinhao/slam_practice/visual_odemetry
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/pinhao/pinhao/slam_practice/visual_odemetry
+CMAKE_BINARY_DIR = /home/pinhao/slam_practice/visual_odemetry
 
 #=============================================================================
 # Directory level rules for the build root directory
@@ -74,14 +74,14 @@ clean: CMakeFiles/output.dir/clean
 CMakeFiles/output.dir/all:
 	$(MAKE) -f CMakeFiles/output.dir/build.make CMakeFiles/output.dir/depend
 	$(MAKE) -f CMakeFiles/output.dir/build.make CMakeFiles/output.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/pinhao/pinhao/slam_practice/visual_odemetry/CMakeFiles --progress-num=1,2 "Built target output"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/pinhao/slam_practice/visual_odemetry/CMakeFiles --progress-num=1,2 "Built target output"
 .PHONY : CMakeFiles/output.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/output.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/pinhao/pinhao/slam_practice/visual_odemetry/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/pinhao/slam_practice/visual_odemetry/CMakeFiles 2
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/output.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/pinhao/pinhao/slam_practice/visual_odemetry/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/pinhao/slam_practice/visual_odemetry/CMakeFiles 0
 .PHONY : CMakeFiles/output.dir/rule
 
 # Convenience name for target.

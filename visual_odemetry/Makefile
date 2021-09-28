@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/pinhao/pinhao/slam_practice/visual_odemetry
+CMAKE_SOURCE_DIR = /home/pinhao/slam_practice/visual_odemetry
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/pinhao/pinhao/slam_practice/visual_odemetry
+CMAKE_BINARY_DIR = /home/pinhao/slam_practice/visual_odemetry
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,9 +80,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/pinhao/pinhao/slam_practice/visual_odemetry/CMakeFiles /home/pinhao/pinhao/slam_practice/visual_odemetry/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/pinhao/slam_practice/visual_odemetry/CMakeFiles /home/pinhao/slam_practice/visual_odemetry/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/pinhao/pinhao/slam_practice/visual_odemetry/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/pinhao/slam_practice/visual_odemetry/CMakeFiles 0
 .PHONY : all
 
 # The main clean target

@@ -4,27 +4,14 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/pinhao/pinhao/slam_practice/visual_odemetry/main.cpp" "/home/pinhao/pinhao/slam_practice/visual_odemetry/CMakeFiles/output.dir/main.cpp.o"
+  "/home/pinhao/slam_practice/visual_odemetry/main.cpp" "/home/pinhao/slam_practice/visual_odemetry/CMakeFiles/output.dir/main.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
-
-# Preprocessor definitions for this target.
-set(CMAKE_TARGET_DEFINITIONS_CXX
-  "DISABLE_PCAP"
-  "DISABLE_PNG"
-  "qh_QHpointer"
-  "vtkRenderingCore_AUTOINIT=3(vtkInteractionStyle,vtkRenderingFreeType,vtkRenderingOpenGL2)"
-  )
 
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
   "/usr/local/include/eigen3"
   "/usr/local/include/opencv4"
-  "/usr/include/vtk-7.1"
-  "/usr/include/freetype2"
-  "/usr/local/include/pcl-1.12"
-  "/usr/include/ni"
-  "/usr/include/openni2"
   )
 
 # Targets to which this target links.
